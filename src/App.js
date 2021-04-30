@@ -24,9 +24,9 @@ export default function App() {
 
     if (meaning === undefined) {
       meaning = "We don't have it in our database !";
-    } else {
-      setMeaning(meaning);
     }
+    setMeaning(meaning);
+
     // console.log(meaning);
   }
 
