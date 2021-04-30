@@ -22,7 +22,7 @@ export default function App() {
     var userInput = event.target.value;
     var meaning = emojiDictionary[userInput];
 
-    if (meaning === "undefined") {
+    if (meaning === undefined) {
       meaning = "We don't have it in our database !";
     } else {
       setMeaning(meaning);
